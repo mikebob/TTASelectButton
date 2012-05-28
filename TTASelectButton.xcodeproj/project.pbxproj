@@ -15,6 +15,8 @@
 		AF09E8311573F52800BFEF33 /* TTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF09E8301573F52800BFEF33 /* TTAAppDelegate.m */; };
 		AF09E8341573F52800BFEF33 /* TTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF09E8331573F52800BFEF33 /* TTAViewController.m */; };
 		AF09E8371573F52800BFEF33 /* TTAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF09E8351573F52800BFEF33 /* TTAViewController.xib */; };
+		AF09E83F1573F54700BFEF33 /* TTASelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AF09E83E1573F54700BFEF33 /* TTASelectButton.m */; };
+		AF09E8421573F59A00BFEF33 /* TTAPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF09E8411573F59A00BFEF33 /* TTAPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		AF09E8201573F52700BFEF33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AF09E8221573F52700BFEF33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF09E8241573F52700BFEF33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AF09E8281573F52700BFEF33 /* TTASelectButton-Info.plist */ = {isa = PBXFileReference; path = "TTASelectButton-Info.plist"; sourceTree = "<group>"; };
+		AF09E8281573F52700BFEF33 /* TTASelectButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTASelectButton-Info.plist"; sourceTree = "<group>"; };
 		AF09E82A1573F52700BFEF33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF09E82C1573F52700BFEF33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AF09E82E1573F52800BFEF33 /* TTASelectButton-Prefix.pch */ = {isa = PBXFileReference; path = "TTASelectButton-Prefix.pch"; sourceTree = "<group>"; };
-		AF09E82F1573F52800BFEF33 /* TTAAppDelegate.h */ = {isa = PBXFileReference; path = TTAAppDelegate.h; sourceTree = "<group>"; };
+		AF09E82E1573F52800BFEF33 /* TTASelectButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTASelectButton-Prefix.pch"; sourceTree = "<group>"; };
+		AF09E82F1573F52800BFEF33 /* TTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAAppDelegate.h; sourceTree = "<group>"; };
 		AF09E8301573F52800BFEF33 /* TTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAAppDelegate.m; sourceTree = "<group>"; };
-		AF09E8321573F52800BFEF33 /* TTAViewController.h */ = {isa = PBXFileReference; path = TTAViewController.h; sourceTree = "<group>"; };
+		AF09E8321573F52800BFEF33 /* TTAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAViewController.h; sourceTree = "<group>"; };
 		AF09E8331573F52800BFEF33 /* TTAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAViewController.m; sourceTree = "<group>"; };
 		AF09E8361573F52800BFEF33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TTAViewController.xib; sourceTree = "<group>"; };
+		AF09E83D1573F54700BFEF33 /* TTASelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTASelectButton.h; sourceTree = "<group>"; };
+		AF09E83E1573F54700BFEF33 /* TTASelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTASelectButton.m; sourceTree = "<group>"; };
+		AF09E8401573F59A00BFEF33 /* TTAPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAPickerViewController.h; sourceTree = "<group>"; };
+		AF09E8411573F59A00BFEF33 /* TTAPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAPickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 		AF09E8261573F52700BFEF33 /* TTASelectButton */ = {
 			isa = PBXGroup;
 			children = (
+				AF09E8401573F59A00BFEF33 /* TTAPickerViewController.h */,
+				AF09E8411573F59A00BFEF33 /* TTAPickerViewController.m */,
+				AF09E83D1573F54700BFEF33 /* TTASelectButton.h */,
+				AF09E83E1573F54700BFEF33 /* TTASelectButton.m */,
 				AF09E82F1573F52800BFEF33 /* TTAAppDelegate.h */,
 				AF09E8301573F52800BFEF33 /* TTAAppDelegate.m */,
 				AF09E8321573F52800BFEF33 /* TTAViewController.h */,
@@ -165,6 +175,8 @@
 				AF09E82D1573F52700BFEF33 /* main.m in Sources */,
 				AF09E8311573F52800BFEF33 /* TTAAppDelegate.m in Sources */,
 				AF09E8341573F52800BFEF33 /* TTAViewController.m in Sources */,
+				AF09E83F1573F54700BFEF33 /* TTASelectButton.m in Sources */,
+				AF09E8421573F59A00BFEF33 /* TTAPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
