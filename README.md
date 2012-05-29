@@ -1,8 +1,7 @@
 TTASelectButton
 ===============
 
-A custom button with a popup text selector
-
+A custom button control with a popup text selector, it's intended use is for iPad applications that want to conserve on space.
 
 **Example Usage**
 
