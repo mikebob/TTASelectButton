@@ -15,16 +15,14 @@
     NSArray *_answers;
 }
 
-
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        _answers = [[NSArray alloc] initWithObjects: @"Battleship Grey", @"Really long color name here", @"Red", @"Orange", @"Yellow", @"Green", @"Blue", @"Indigo", @"Voilet", nil];
         _selectButton = [[TTASelectButton alloc] initWithFrame:CGRectMake(20.0f, 20.0f, 120.0f, 40.0f)];
-        _answers = [[NSArray alloc] initWithObjects: @"Battleship Grey", @"Really long color name name name", @"Red", @"Orange", @"Yellow", @"Green", @"Blue", @"Indigo", @"Voilet", nil];
         [_selectButton setPickerData:_answers];
         [self.view addSubview:_selectButton];
     }
-
     return self;
 }
 

@@ -81,7 +81,7 @@
     [self setTitle:title forState:UIControlStateNormal];
     [self.popover dismissPopoverAnimated:YES];
     self.selectedIndexPath = indexPath;
-    [self resizeButton]; 
+    [self resizeButton];
 }
 
 - (void)drawRect:(CGRect)rect {
